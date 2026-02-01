@@ -1,12 +1,22 @@
 import { Icon } from '@iconify/react'
 
+const taglines = [
+  'På dina villkor.',
+  'Tränad på din kunskap.',
+  'Börja gratis.',
+  'Redo på minuter.',
+  'Dygnet runt.',
+]
+
+const randomTagline = taglines[Math.floor(Math.random() * taglines.length)]
+
 export function Hero() {
   return (
     <section className="relative pt-20 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 text-center">
         <h1 className="mx-auto max-w-4xl text-5xl font-semibold tracking-tight text-stone-900 md:text-6xl lg:text-7xl font-jakarta">
-          En portal. <br className="hidden md:block" />
-          <span className="text-stone-400 font-jakarta tracking-tight font-semibold">Alla AI-verktyg.</span>
+          AI för ditt företag. <br className="hidden md:block" />
+          <span className="text-stone-400 font-jakarta tracking-tight font-semibold">{randomTagline}</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-stone-500 leading-relaxed font-geist">
           Gothia AI Portal samlar chatbot, bokning och support i en self-service plattform. Byggt för svenska företag. Gratis att starta.

@@ -67,19 +67,33 @@ export function Pricing() {
   return (
     <section id="pricing" className="py-24 bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        {/* Trial Banner */}
+        <div className="mb-12 rounded-2xl border-2 border-orange-200 bg-orange-50 p-6 text-center">
+          <div className="inline-flex items-center gap-2 rounded-full bg-orange-600 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white mb-4 font-geist">
+            14 dagars gratis trial
+          </div>
+          <h3 className="text-xl font-semibold text-stone-900 font-jakarta mb-2">
+            Testa full kapacitet utan kreditkort
+          </h3>
+          <p className="text-stone-600 font-geist max-w-xl mx-auto">
+            Få tillgång till Bas-nivån i 14 dagar: 50 källor, 1 000 frågor, GPT-4o.
+            Efter trial behåller du gratis Starter-plan.
+          </p>
+        </div>
+
         {/* Portal Pricing */}
         <div className="mb-16 text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold tracking-tight text-stone-900 font-jakarta">Välj din plan</h2>
-          <p className="mt-4 text-stone-500 text-lg font-geist">Börja gratis. Uppgradera när du behöver mer.</p>
+          <p className="mt-4 text-stone-500 text-lg font-geist">Trial → Starter → Uppgradera när du behöver mer.</p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-start mb-24">
           <PlanCard
             name="Starter"
             price="Gratis"
-            subtitle="För alltid"
-            features={['10 källor', '30 frågor/mån', '"Powered by Gothia AI"']}
-            cta="Kom igång gratis"
+            subtitle="Efter trial"
+            features={['3 källor', '10 frågor/mån', 'GPT-4o-mini', 'Vattenstämpel']}
+            cta="Starta trial"
           />
           <PlanCard
             name="Bas"
@@ -175,7 +189,7 @@ export function Pricing() {
             </table>
           </div>
           <p className="mt-4 text-xs text-center text-stone-400 font-geist">
-            Alla priser exkl. moms. Starter inkluderar 'Powered by Gothia AI'-logotyp.
+            Alla priser exkl. moms. 14 dagars trial på Bas-nivå, sedan Starter eller betalplan.
           </p>
         </div>
       </div>

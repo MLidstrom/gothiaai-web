@@ -17,7 +17,7 @@ Marketing website for Gothia AI Portal.
 
 ## Sections
 
-1. Hero – "En portal. Alla AI-verktyg."
+1. Hero – "AI för ditt företag. [random tagline]"
 2. Product Network – DocuChat, TimeSlot, Receptionist
 3. How It Works – 5-minute setup
 4. Integration – Three publishing methods

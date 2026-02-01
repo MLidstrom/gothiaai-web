@@ -36,14 +36,19 @@ export function FAQ() {
 
   const faqs = [
     {
+      question: 'Hur fungerar 14-dagars trial?',
+      answer:
+        'Du får full Bas-kapacitet (50 källor, 1 000 frågor, GPT-4o) i 14 dagar utan kreditkort. Efter trial nedgraderas du automatiskt till Starter eller väljer en betalplan.',
+    },
+    {
+      question: 'Vad händer efter trial?',
+      answer:
+        'Du behåller gratis Starter-plan med begränsad kapacitet (3 källor, 10 frågor/mån). Vill du ha mer uppgraderar du till Bas, Standard eller Pro.',
+    },
+    {
       question: 'Vad räknas som en "källa"?',
       answer:
         'Varje uppladdad fil (t.ex. en PDF) eller en crawlad webbsida räknas som en källa. Om du laddar upp en årsredovisning är det en källa.',
-    },
-    {
-      question: 'Kan jag testa utan att betala?',
-      answer:
-        'Ja, Starter-planen är gratis för alltid med begränsad kapacitet. Du behöver inte registrera något kreditkort.',
     },
     {
       question: 'Vad ingår i Portal-prenumerationen?',
@@ -54,11 +59,6 @@ export function FAQ() {
       question: 'Hur fungerar produktnätverket?',
       answer:
         'Alla produkter delar samma databas per kund. DocuChat kan t.ex. boka möten via TimeSlot direkt i chatten utan att du behöver koppla ihop systemen manuellt.',
-    },
-    {
-      question: 'Kan jag byta plan senare?',
-      answer:
-        'Ja, du kan uppgradera eller nedgradera när som helst. Ändringen träder i kraft direkt i portalen.',
     },
     {
       question: 'Vilka filformat stöds?',
