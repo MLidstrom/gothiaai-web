@@ -1,7 +1,9 @@
 import { Icon } from '@iconify/react'
 
 const taglines = [
-  'Steg för steg.',
+  'Dygnet runt.',
+  'På fem minuter.',
+  'Direkt i webbläsaren.',
   'På dina villkor.',
   'Utan kod.',
   'Börja idag.',
