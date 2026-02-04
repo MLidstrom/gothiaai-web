@@ -56,9 +56,9 @@ export function FAQ() {
         'DocuChat ingår alltid som bas-plugin. Tilläggs-plugins (TimeSlot, Receptionist) adderas separat till din prenumeration.',
     },
     {
-      question: 'Hur fungerar produktnätverket?',
+      question: 'Hur samarbetar Portalens verktyg?',
       answer:
-        'Alla produkter delar samma databas per kund. DocuChat kan t.ex. boka möten via TimeSlot direkt i chatten utan att du behöver koppla ihop systemen manuellt.',
+        'Alla verktyg delar samma databas per kund. DocuChat kan t.ex. boka möten via TimeSlot direkt i chatten utan att du behöver koppla ihop systemen manuellt.',
     },
     {
       question: 'Vilka filformat stöds?',

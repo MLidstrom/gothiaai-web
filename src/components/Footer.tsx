@@ -1,27 +1,34 @@
+import { Link } from 'react-router-dom'
+
 export function Footer() {
   return (
     <footer className="border-t border-stone-200 bg-[#FAFAFA] pt-16 pb-8">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4 mb-16">
           <div>
-            <h4 className="font-medium text-stone-900 mb-4 text-sm font-geist">Produkter</h4>
+            <h4 className="font-medium text-stone-900 mb-4 text-sm font-geist">Portal</h4>
             <ul className="space-y-3 text-sm text-stone-500">
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
+                <Link to="/portal/docuchat" className="hover:text-stone-900 transition-colors font-geist">
                   DocuChat{' '}
                   <span className="text-xs text-orange-600 ml-1 bg-orange-50 px-1.5 py-0.5 rounded font-geist">
                     Ingår
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
+                <Link to="/portal/timeslot" className="hover:text-stone-900 transition-colors font-geist">
                   TimeSlot
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
+                <Link to="/portal/receptionist" className="hover:text-stone-900 transition-colors font-geist">
                   Receptionist
+                </Link>
+              </li>
+              <li>
+                <a href="/#pricing" className="hover:text-stone-900 transition-colors font-geist">
+                  Priser
                 </a>
               </li>
             </ul>
@@ -30,18 +37,23 @@ export function Footer() {
             <h4 className="font-medium text-stone-900 mb-4 text-sm font-geist">Resurser</h4>
             <ul className="space-y-3 text-sm text-stone-500">
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
-                  Dokumentation
+                <a href="/#how-it-works" className="hover:text-stone-900 transition-colors font-geist">
+                  Så funkar det
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
-                  Prislogik
+                <a href="/#pricing" className="hover:text-stone-900 transition-colors font-geist">
+                  Priser
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
-                  Statuspage
+                <a href="/#faq" className="hover:text-stone-900 transition-colors font-geist">
+                  Vanliga frågor
+                </a>
+              </li>
+              <li>
+                <a href="mailto:kontakt@gothia.ai" className="hover:text-stone-900 transition-colors font-geist">
+                  Kontakta oss
                 </a>
               </li>
             </ul>
@@ -55,7 +67,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-stone-900 transition-colors font-geist">
+                <a href="mailto:kontakt@gothia.ai" className="hover:text-stone-900 transition-colors font-geist">
                   Kontakt
                 </a>
               </li>

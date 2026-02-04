@@ -1,11 +1,10 @@
 import { Icon } from '@iconify/react'
 
 const taglines = [
+  'Steg för steg.',
   'På dina villkor.',
-  'Tränad på din kunskap.',
-  'Börja gratis.',
-  'Redo på minuter.',
-  'Dygnet runt.',
+  'Utan kod.',
+  'Börja idag.',
 ]
 
 const randomTagline = taglines[Math.floor(Math.random() * taglines.length)]
@@ -19,7 +18,7 @@ export function Hero() {
           <span className="text-stone-400 font-jakarta tracking-tight font-semibold">{randomTagline}</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-stone-500 leading-relaxed font-geist">
-          Gothia AI Portal samlar chatbot, bokning och support i en self-service plattform. Byggt för svenska företag. Gratis att starta.
+          Gothia AI Portal ger dig chatbot, bokning och lead-kvalificering — redo att publicera på din webbplats på minuter. Utan kod, utan krångel.
         </p>
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
@@ -30,7 +29,7 @@ export function Hero() {
             <Icon icon="solar:arrow-right-linear" width={18} height={18} />
           </a>
           <a
-            href="#demo"
+            href="#how-it-works"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-lg border border-stone-200 bg-white px-6 py-3 text-sm font-medium text-stone-700 transition-colors hover:bg-stone-50 hover:text-stone-900 hover:border-stone-300 font-geist"
           >
             Se hur det fungerar

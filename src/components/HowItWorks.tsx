@@ -32,10 +32,10 @@ export function HowItWorks() {
         <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
           <div>
             <h2 className="text-3xl font-semibold tracking-tight text-stone-900 font-jakarta">
-              Live på 5 minuter
+              Portal: Live på 5 minuter
             </h2>
             <p className="mt-4 text-stone-500 mb-10 text-lg font-geist">
-              Inga komplexa integrationer. Gothia AI är byggt för att du ska kunna göra allt själv, direkt i webbläsaren.
+              Inga komplexa integrationer. Gothia AI Portal är byggt för att du ska kunna göra allt själv, direkt i webbläsaren.
             </p>
 
             <div className="space-y-8">

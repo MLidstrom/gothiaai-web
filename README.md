@@ -11,9 +11,15 @@ Marketing website for Gothia AI Portal.
 ## Design
 
 - Scandinavian minimalist style
-- Light color palette (off-white, warm grays, blue accent)
+- Light color palette (off-white #FAFAFA, warm grays, orange accent)
 - Mobile-first responsive design
 - No AI clichés (gradients, orbs, glows)
+
+## Features
+
+- **DocuChat Widget**: Header includes interactive DocuChat demo that connects to Portal API
+- **Product Pages**: Dedicated pages for DocuChat, TimeSlot, and Receptionist products
+- **Responsive Layout**: Shared header/footer via React Router Outlet
 
 ## Sections
 
@@ -28,20 +34,28 @@ Marketing website for Gothia AI Portal.
 
 ## Tech Stack
 
-- React + TypeScript
+- React 19 + TypeScript
 - Tailwind CSS
 - Vite
+- React Router v7
 
 ## Development
 
 ```bash
-# Clone from Lovable when ready to customize
 npm install
-npm run dev
+npm run dev      # http://localhost:5173
+npm run build    # TypeScript check + production build
 ```
+
+## Environment
+
+Copy `.env.development` for local development:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `VITE_API_URL` | Portal API URL | `http://localhost:5298` |
 
 ## Related
 
-- Documentation: `../GothiaAI-docs/`
 - Portal backend: `../gothiaai-portal/`
-- Lovable prompt: `../GothiaAI-docs/prompts/lovable-website-prompt.md`
+- Documentation: `../GothiaAI-docs/`

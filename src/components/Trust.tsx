@@ -32,17 +32,17 @@ export function Trust() {
           <TrustItem
             icon="solar:magic-stick-3-linear"
             title="100% self-service"
-            description="Ingen konsult behövs. Du styr allt själv direkt i portalen."
+            description="Konfigurera, träna och publicera direkt i webbläsaren. Ingen kod krävs."
           />
           <TrustItem
-            icon="solar:shield-check-linear"
-            title="GDPR-anpassat"
-            description="Hostat i EU med strikt datakontroll och säkerhet."
+            icon="solar:rocket-2-linear"
+            title="Redo på minuter"
+            description="Ladda upp dokument, anpassa och publicera. Live på din webbplats samma dag."
           />
           <TrustItem
-            icon="solar:database-linear"
-            title="Tenant-isolerad data"
-            description="Dina dokument tränar bara din bot. Ingen data delas."
+            icon="solar:map-point-linear"
+            title="Svenskt & EU-hostat"
+            description="Utvecklat i Sverige, hostat inom EU. Din data lämnar aldrig Europa."
           />
         </div>
 

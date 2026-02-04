@@ -9,9 +9,9 @@ export function TimeSlotPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
-              <div className="inline-flex items-center rounded-full bg-red-50 px-3 py-1 text-sm font-medium text-red-700 mb-6 font-geist">
+              <div className="inline-flex items-center rounded-full bg-orange-50 px-3 py-1 text-sm font-medium text-orange-700 mb-6 font-geist">
                 <Icon icon="solar:calendar-linear" className="mr-2" width={16} />
-                Starta Gratis
+                Portal-tillägg
               </div>
               <h1 className="text-4xl font-semibold tracking-tight text-stone-900 md:text-5xl font-jakarta">
                 TimeSlot

@@ -11,7 +11,7 @@ export function ReceptionistPage() {
             <div>
               <div className="inline-flex items-center rounded-full bg-stone-100 px-3 py-1 text-sm font-medium text-stone-600 mb-6 font-geist">
                 <Icon icon="solar:user-speak-linear" className="mr-2" width={16} />
-                Premium
+                Portal Premium
               </div>
               <h1 className="text-4xl font-semibold tracking-tight text-stone-900 md:text-5xl font-jakarta">
                 Receptionist
