@@ -76,7 +76,7 @@ export function Products() {
             features={[
               { icon: 'solar:file-text-linear', text: 'Träna på PDF, Word och webbsidor' },
               { icon: 'solar:chat-round-dots-linear', text: 'Inbäddningsbar widget' },
-              { icon: 'solar:magic-stick-3-linear', text: 'GPT-4o som standard' },
+              { icon: 'solar:magic-stick-3-linear', text: 'Kraftfull AI som standard' },
             ]}
             href="/portal/docuchat"
             ctaText="Läs mer"

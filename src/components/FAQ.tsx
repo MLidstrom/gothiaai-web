@@ -38,7 +38,7 @@ export function FAQ() {
     {
       question: 'Hur fungerar 14-dagars trial?',
       answer:
-        'Du får full Bas-kapacitet (50 källor, 1 000 frågor, GPT-4o) i 14 dagar utan kreditkort. Efter trial nedgraderas du automatiskt till Starter eller väljer en betalplan.',
+        'Du får full Bas-kapacitet (50 källor, 1 000 frågor) i 14 dagar utan kreditkort. Efter trial nedgraderas du automatiskt till Starter eller väljer en betalplan.',
     },
     {
       question: 'Vad händer efter trial?',

@@ -76,7 +76,7 @@ export function Pricing() {
             Testa full kapacitet utan kreditkort
           </h3>
           <p className="text-stone-600 font-geist max-w-xl mx-auto">
-            Få tillgång till Bas-nivån i 14 dagar: 50 källor, 1 000 frågor, GPT-4o.
+            Få tillgång till Bas-nivån i 14 dagar: 50 källor, 1 000 frågor, full AI-kapacitet.
             Efter trial behåller du gratis Starter-plan.
           </p>
         </div>
@@ -92,7 +92,7 @@ export function Pricing() {
             name="Starter"
             price="Gratis"
             subtitle="Efter trial"
-            features={['3 källor', '10 frågor/mån', 'GPT-4o-mini', 'Vattenstämpel']}
+            features={['3 källor', '10 frågor/mån', 'Bas-AI', 'Vattenstämpel']}
             cta="Starta trial"
           />
           <PlanCard
